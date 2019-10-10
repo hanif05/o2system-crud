@@ -15,13 +15,15 @@ use O2System\Spl\DataStructures\SplArrayObject;
 
 /**
  * Class Students
- *
+ * @author hanif
  * @package \App\Controllers
  */
 class Students extends Controller
 {
     /**
      * Students::index
+     *
+     * @return void
      */
     public function index()
     {
@@ -31,10 +33,14 @@ class Students extends Controller
         ]);
     }
 
+    // ------------------------------------------------------------------------
+
     /**
+     *Students::form
      *
+     * @return void
      */
-    public function  form($id = null)
+    public function form($id = null)
     {
        $vars = [
            'post' => new SplArrayObject(),
@@ -53,12 +59,28 @@ class Students extends Controller
 
     }
 
+    // ------------------------------------------------------------------------
+
+    /**
+     * Students::delete
+     *
+     * @param  int $id Student id
+     * @return void
+     */
     public function delete($id)
     {
         $this->model->delete($id);
         redirect_url('/students');
     }
 
+    // ------------------------------------------------------------------------
+
+    /**
+     * Students::edit
+     *
+     * @param  int $id Student id
+     * @return void
+     */
     public function edit($id)
     {
 //        $id = $this->model->id;
@@ -67,6 +89,15 @@ class Students extends Controller
 
         return view('students/edit', ['data' => $student]);
     }
+
+    // ------------------------------------------------------------------------
+
+    /**
+     * Students::update
+     *
+     * @param  int $id Student id
+     * @return void
+     */
 
     public function update($id)
     {
