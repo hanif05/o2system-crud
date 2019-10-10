@@ -60,4 +60,13 @@ class Students extends Controller
         $this->model->delete($id);
         redirect_url('/students');
     }
+
+    public function edit($id)
+    {
+//        $id = $this->model->id;
+        $student = $this->model->find($id);
+
+
+        return view('students/edit', ['data' => $student]);
+    }
 }
