@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ $meta->title }}</title>
+	{{ $assets->head }}
+</head>
+<body class="multipurpose">
+	<div id="page-content" class="page-content">
+	    {{ $partials->content }}
+	</div>
+
+	<a class="scroll-to-top" href="#top"><i class="fas fa-long-arrow-alt-up"></i>To Top</a>
+	{{ $assets->body }}
+</body>
+</html>
