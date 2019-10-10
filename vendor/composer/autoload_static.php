@@ -7,6 +7,7 @@ namespace Composer\Autoload;
 class ComposerStaticInit1d3296207e65cd5e5eb43e1f98623264
 {
     public static $files = array (
+        'e2287167b0f474301790104b608b426f' => __DIR__ . '/..' . '/o2system/gear/src/Helper.php',
         '600b2fc948e0be33fe59a87e55ce227f' => __DIR__ . '/..' . '/o2system/kernel/src/Config/Constants.php',
         '0f2e6637ed5f7e75263dc020d1d7f216' => __DIR__ . '/..' . '/o2system/kernel/src/Helpers/Common.php',
         'edb327dc8d51f9d36f63df9bbf8ed6a5' => __DIR__ . '/..' . '/o2system/kernel/src/Helpers/Inflector.php',
@@ -51,6 +52,7 @@ class ComposerStaticInit1d3296207e65cd5e5eb43e1f98623264
             'O2System\\Kernel\\' => 16,
             'O2System\\Image\\' => 15,
             'O2System\\Html\\' => 14,
+            'O2System\\Gear\\' => 14,
             'O2System\\Framework\\' => 19,
             'O2System\\Filesystem\\' => 20,
             'O2System\\Email\\' => 15,
@@ -149,6 +151,10 @@ class ComposerStaticInit1d3296207e65cd5e5eb43e1f98623264
         'O2System\\Html\\' => 
         array (
             0 => __DIR__ . '/..' . '/o2system/html/src',
+        ),
+        'O2System\\Gear\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/o2system/gear/src',
         ),
         'O2System\\Framework\\' => 
         array (

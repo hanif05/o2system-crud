@@ -12,6 +12,7 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/o2system/email" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/o2system/filesystem" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/o2system/framework" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/o2system/gear" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/o2system/html" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/o2system/image" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/o2system/kernel" />

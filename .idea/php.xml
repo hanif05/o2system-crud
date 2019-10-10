@@ -32,6 +32,7 @@
       <path value="$PROJECT_DIR$/vendor/o2system/html" />
       <path value="$PROJECT_DIR$/vendor/o2system/email" />
       <path value="$PROJECT_DIR$/vendor/o2system/security" />
+      <path value="$PROJECT_DIR$/vendor/o2system/gear" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.2" />

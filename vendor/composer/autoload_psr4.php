@@ -26,6 +26,7 @@ return array(
     'O2System\\Kernel\\' => array($vendorDir . '/o2system/kernel/src'),
     'O2System\\Image\\' => array($vendorDir . '/o2system/image/src'),
     'O2System\\Html\\' => array($vendorDir . '/o2system/html/src'),
+    'O2System\\Gear\\' => array($vendorDir . '/o2system/gear/src'),
     'O2System\\Framework\\' => array($vendorDir . '/o2system/framework/src'),
     'O2System\\Filesystem\\' => array($vendorDir . '/o2system/filesystem/src'),
     'O2System\\Email\\' => array($vendorDir . '/o2system/email/src'),

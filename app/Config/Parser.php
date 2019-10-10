@@ -30,6 +30,7 @@ $parser = new \O2System\Parser\DataStructures\Config([
      * @var string
      */
     'template' => [
+        'Blade',
         'Noodle'
     ],
 
@@ -47,6 +48,7 @@ $parser = new \O2System\Parser\DataStructures\Config([
      * @var string
      */
     'template' => [
+        'Blade',
         'Noodle'
     ],
 

@@ -455,6 +455,62 @@
         ]
     },
     {
+        "name": "o2system/gear",
+        "version": "v2.1.63",
+        "version_normalized": "2.1.63.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/o2system/gear.git",
+            "reference": "c092919e4dd62ff6dc93bfa1ab1a4e6b84670b89"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/o2system/gear/zipball/c092919e4dd62ff6dc93bfa1ab1a4e6b84670b89",
+            "reference": "c092919e4dd62ff6dc93bfa1ab1a4e6b84670b89",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^7.2.0"
+        },
+        "time": "2019-10-02T16:40:31+00:00",
+        "type": "package",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "O2System\\Gear\\": "src"
+            },
+            "files": [
+                "src/Helper.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Steeven Andrian Salim",
+                "email": "steevenz@steevenz.com",
+                "homepage": "http://www.steevenz.com",
+                "role": "Founder and Lead Project"
+            },
+            {
+                "name": "Teguh Rianto",
+                "email": "teguh.rianto22@gmail.com",
+                "homepage": "http://teguhrianto22.pusku.com",
+                "role": "Template Designer"
+            }
+        ],
+        "description": "PHP Developer Tools Library",
+        "keywords": [
+            "driver",
+            "framework",
+            "libraries",
+            "php",
+            "utilities"
+        ]
+    },
+    {
         "name": "o2system/html",
         "version": "v1.0.75",
         "version_normalized": "1.0.75.0",
