@@ -44,8 +44,6 @@ class Students extends Controller
            $vars['post'] = $post;
            if(empty($post->id)) {
                $this->model->insert($post->getArrayCopy());
-           } else {
-               $this->model->update($post->getArrayCopy());
            }
 
            redirect_url('/students');
@@ -68,5 +66,33 @@ class Students extends Controller
 
 
         return view('students/edit', ['data' => $student]);
+    }
+
+    public function update($id)
+    {
+        $vars = [
+            'post' => new SplArrayObject()
+        ];
+        if ($post = $this->input->post()){
+            $student = $this->model->find($id);
+            $student->update($post->getArrayCopy());
+        }
+        redirect_url('/students');
+
+
+
+//        $id = $this->input->post('id');
+//        $name = $this->input->post('name');
+//
+//        $data = array(
+//          'name' => $name
+//        );
+//
+//        $where = array(
+//            'id' => $id
+//        );
+//
+//        $this->model->update($where, $data);
+//        redirect_url('/students');
     }
 }
